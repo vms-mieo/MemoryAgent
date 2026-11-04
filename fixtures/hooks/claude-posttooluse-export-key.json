@@ -1,0 +1,14 @@
+{
+  "transcript_path": "/Users/dev/.claude/projects/workspace/cloud-platform/transcript.jsonl",
+  "cwd": "/workspace/cloud-platform",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Edit",
+  "session_id": "abc125",
+  "tool_use_id": "call-leak-2",
+  "tool_input": {
+    "file": "scripts/setup.sh",
+    "old_string": "echo setup",
+    "new_string": "printf 'export LAM_OPENAI_COMPAT_API_KEY=%s\\n' 'oc_sk_000000000000_FAKEfakeFAKEfakeFAKEfakeFAKEfa'"
+  },
+  "tool_response": "edited scripts/setup.sh"
+}

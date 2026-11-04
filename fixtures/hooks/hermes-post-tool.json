@@ -1,0 +1,15 @@
+{
+  "hook_event_name": "post_tool_call",
+  "tool_name": "terminal",
+  "tool_input": {"command": "cargo test --workspace"},
+  "session_id": "hermes-sess-1",
+  "cwd": "/workspace/cloud-platform",
+  "extra": {
+    "session_id": "hermes-sess-1",
+    "tool_name": "terminal",
+    "args": {"command": "cargo test --workspace"},
+    "result": "{\"output\": \"test result: FAILED. 1 failed\", \"exit_code\": 1}",
+    "task_id": "hermes-sess-1",
+    "duration_ms": 842
+  }
+}

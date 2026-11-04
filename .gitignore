@@ -1,0 +1,8 @@
+target/
+dist/
+*.db
+*.db-wal
+*.db-shm
+.agent-memory/
+docs/
+LOCAL_AGENT_MEMORY_SDD.md

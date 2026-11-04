@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local-agent-memory/schemas/context-response-v1.json",
+  "title": "ContextResponse",
+  "type": "object",
+  "required": ["schema_version", "project_id", "task", "token_budget", "estimated_tokens", "context", "items", "warnings"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "project_id": { "type": "string" },
+    "task": { "type": "string" },
+    "token_budget": { "type": "integer", "minimum": 1 },
+    "estimated_tokens": { "type": "integer", "minimum": 0 },
+    "context": { "type": "string" },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["memory_id", "kind", "status", "source", "relevance"],
+        "properties": {
+          "memory_id": { "type": "string" },
+          "kind": { "type": "string" },
+          "status": { "type": "string" },
+          "source": { "type": "string" },
+          "relevance": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+          "valid_from": { "type": ["string", "null"], "format": "date-time" }
+        }
+      }
+    },
+    "warnings": { "type": "array", "items": { "type": "string" } }
+  }
+}

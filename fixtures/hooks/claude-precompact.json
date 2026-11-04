@@ -1,0 +1,13 @@
+{
+  "session_id": "abc123",
+  "transcript_path": "/Users/dev/.claude/projects/workspace/cloud-platform/transcript.jsonl",
+  "cwd": "/workspace/cloud-platform",
+  "hook_event_name": "PreCompact",
+  "trigger": "auto",
+  "goal": "Provision database with Temporal workflow",
+  "current_task": "Wire worker deployment config",
+  "completed_steps": ["ADR-0003 accepted", "worker code generated"],
+  "next_steps": ["Apply migration", "Run smoke test"],
+  "blockers": ["Waiting on staging credentials"],
+  "files_touched": ["deploy/worker.yaml", "docs/adr/0003-use-temporal.md"]
+}

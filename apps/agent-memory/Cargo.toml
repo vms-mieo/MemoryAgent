@@ -1,0 +1,39 @@
+[package]
+name = "agent-memory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[[bin]]
+name = "agent-memory"
+path = "src/main.rs"
+
+[dependencies]
+clap = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+rusqlite = { workspace = true }
+lam-core = { path = "../../crates/lam-core" }
+lam-config = { path = "../../crates/lam-config" }
+lam-storage = { path = "../../crates/lam-storage" }
+lam-adapters = { path = "../../crates/lam-adapters" }
+lam-providers = { path = "../../crates/lam-providers" }
+lam-vault = { path = "../../crates/lam-vault" }
+lam-retrieval = { path = "../../crates/lam-retrieval" }
+lam-consolidate = { path = "../../crates/lam-consolidate" }
+thiserror = { workspace = true }
+chrono = { workspace = true }
+tokio = { workspace = true }
+rmcp = { workspace = true }
+schemars = { workspace = true }
+blake3 = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }
+rusqlite = { workspace = true }
+lam-core = { path = "../../crates/lam-core" }
+lam-config = { path = "../../crates/lam-config" }
+lam-storage = { path = "../../crates/lam-storage" }
+serde_json = { workspace = true }

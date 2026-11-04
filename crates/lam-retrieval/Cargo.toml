@@ -1,0 +1,16 @@
+[package]
+name = "lam-retrieval"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+lam-core = { path = "../lam-core" }
+lam-storage = { path = "../lam-storage" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+rusqlite = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

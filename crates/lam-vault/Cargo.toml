@@ -1,0 +1,15 @@
+[package]
+name = "lam-vault"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+lam-core = { path = "../lam-core" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+blake3 = { workspace = true }
+ignore = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

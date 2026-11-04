@@ -1,0 +1,14 @@
+[package]
+name = "lam-config"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+serde = { workspace = true }
+toml = { workspace = true }
+thiserror = { workspace = true }
+lam-core = { path = "../lam-core" }
+
+[dev-dependencies]
+tempfile = { workspace = true }

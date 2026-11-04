@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local-agent-memory/schemas/normalized-event-v1.json",
+  "title": "NormalizedEvent",
+  "type": "object",
+  "required": ["schema_version", "host", "event_type", "external_session_id", "event_id", "cwd", "timestamp", "payload"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "host": { "type": "string", "minLength": 1 },
+    "event_type": { "type": "string", "minLength": 1 },
+    "external_session_id": { "type": "string", "minLength": 1 },
+    "event_id": { "type": "string", "minLength": 1 },
+    "cwd": { "type": "string", "minLength": 1 },
+    "git_branch": { "type": ["string", "null"] },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "payload": { "type": "object" }
+  }
+}

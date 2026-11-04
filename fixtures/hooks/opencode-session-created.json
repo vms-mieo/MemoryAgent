@@ -1,0 +1,9 @@
+{
+  "host": "opencode",
+  "event": "session.created",
+  "sessionId": "opaque-session-9",
+  "cwd": "/workspace/cloud-platform",
+  "branch": "feature/provisioning",
+  "timestamp": "2026-11-02T00:10:00Z",
+  "payload": {}
+}

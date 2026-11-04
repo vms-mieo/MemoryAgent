@@ -1,0 +1,22 @@
+pub mod context;
+pub mod fts;
+pub mod fusion;
+pub mod hybrid;
+pub mod types;
+
+pub use context::build_hybrid_context;
+pub use context::HybridContext;
+pub use context::HybridItem;
+pub use fts::multi_search;
+pub use fusion::fuse;
+pub use fusion::FusedHit;
+pub use fusion::ScorePart;
+pub use fusion::CODE_MATCH_BONUS;
+pub use fusion::RRF_K;
+pub use fusion::VERIFIED_BONUS;
+pub use hybrid::hybrid_search;
+pub use hybrid::HybridResult;
+pub use hybrid::HybridVector;
+pub use types::GroupedHits;
+pub use types::HitKind;
+pub use types::UnifiedHit;

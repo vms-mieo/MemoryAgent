@@ -1,0 +1,9 @@
+{
+  "session_id": "thr_9f2c1a",
+  "transcript_path": null,
+  "cwd": "/workspace/cloud-platform",
+  "hook_event_name": "SessionStart",
+  "source": "startup",
+  "model": "gpt-5.4",
+  "permission_mode": "default"
+}

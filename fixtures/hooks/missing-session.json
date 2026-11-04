@@ -1,0 +1,9 @@
+{
+  "host": "opencode",
+  "event": "session.idle",
+  "cwd": "/workspace/cloud-platform",
+  "timestamp": "2026-11-02T00:20:00Z",
+  "payload": {
+    "notes": "Idle after provisioning review"
+  }
+}

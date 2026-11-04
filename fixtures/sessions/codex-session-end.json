@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "host": "codex",
+  "event_type": "session.end",
+  "external_session_id": "example-session-id",
+  "event_id": "example-event-id",
+  "cwd": "/workspace/cloud-platform",
+  "git_branch": "feature/provisioning",
+  "timestamp": "2026-11-01T10:00:00Z",
+  "payload": {
+    "summary": "Completed repository-aware Temporal workflow plan",
+    "outcome": "review_needed"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hook_event_name": "pre_llm_call",
+  "tool_name": null,
+  "tool_input": null,
+  "session_id": "hermes-sess-1",
+  "cwd": "/workspace/cloud-platform",
+  "extra": {
+    "session_id": "hermes-sess-1",
+    "user_message": "Continue the Temporal provisioning work, what was decided?",
+    "conversation_history": [],
+    "is_first_turn": true,
+    "model": "anthropic/claude-sonnet-4-6",
+    "platform": "cli"
+  }
+}

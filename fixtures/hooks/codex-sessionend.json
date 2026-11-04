@@ -1,0 +1,8 @@
+{
+  "session_id": "thr_9f2c1a",
+  "transcript_path": "/workspace/.codex/rollout.jsonl",
+  "cwd": "/workspace/cloud-platform",
+  "hook_event_name": "SessionEnd",
+  "reason": "other",
+  "permission_mode": "default"
+}

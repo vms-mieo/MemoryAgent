@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "memory_id": "018f0000-0000-7000-8000-000000000001",
+  "project_id": "018f0000-0000-7000-8000-000000000002",
+  "scope": "project",
+  "kind": "architecture_decision",
+  "subject": "provisioning.orchestrator",
+  "predicate": "uses",
+  "value": "temporal",
+  "status": "verified",
+  "confidence": 0.98,
+  "valid_from": "2026-10-20T09:00:00Z",
+  "valid_until": null,
+  "recorded_at": "2026-10-20T09:02:00Z",
+  "source": {
+    "source_kind": "document",
+    "source_ref": "docs/adr/0003-use-temporal.md",
+    "line_start": 12,
+    "line_end": 31,
+    "commit_sha": "example-commit-sha"
+  }
+}

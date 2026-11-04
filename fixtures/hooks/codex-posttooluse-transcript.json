@@ -1,0 +1,13 @@
+{
+  "session_id": "thr_9f2c1a",
+  "transcript_path": "/workspace/.codex/rollout.jsonl",
+  "cwd": "/workspace/cloud-platform",
+  "hook_event_name": "PostToolUse",
+  "turn_id": "turn_7",
+  "tool_name": "Bash",
+  "tool_use_id": "call_42",
+  "tool_input": {"command": "cargo test --workspace"},
+  "tool_response": {"exit_code": 0, "output": "test result: ok"},
+  "transcript": "ENTIRE RAW TRANSCRIPT THAT MUST NEVER BE STORED",
+  "permission_mode": "default"
+}

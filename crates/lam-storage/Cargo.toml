@@ -1,0 +1,20 @@
+[package]
+name = "lam-storage"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+rusqlite = { workspace = true }
+thiserror = { workspace = true }
+chrono = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+lam-core = { path = "../lam-core" }
+lam-adapters = { path = "../lam-adapters" }
+lam-vault = { path = "../lam-vault" }
+lam-providers = { path = "../lam-providers" }
+blake3 = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

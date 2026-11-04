@@ -1,0 +1,19 @@
+[package]
+name = "lam-consolidate"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+lam-core = { path = "../lam-core" }
+lam-storage = { path = "../lam-storage" }
+lam-config = { path = "../lam-config" }
+lam-providers = { path = "../lam-providers" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+rusqlite = { workspace = true }
+blake3 = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

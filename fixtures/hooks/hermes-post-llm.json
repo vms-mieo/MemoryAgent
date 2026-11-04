@@ -1,0 +1,15 @@
+{
+  "hook_event_name": "post_llm_call",
+  "tool_name": null,
+  "tool_input": null,
+  "session_id": "hermes-sess-1",
+  "cwd": "/workspace/cloud-platform",
+  "extra": {
+    "session_id": "hermes-sess-1",
+    "user_message": "Wire the worker deployment config",
+    "assistant_response": "Applied the Temporal worker config; next: run smoke test. Blocker: waiting on staging credentials.",
+    "conversation_history": [],
+    "model": "anthropic/claude-sonnet-4-6",
+    "platform": "cli"
+  }
+}

@@ -1,0 +1,24 @@
+pub mod embed;
+pub mod extract;
+#[cfg(feature = "remote-provider")]
+pub mod remote;
+
+pub use embed::cosine_similarity;
+pub use embed::embedding_for;
+pub use embed::EmbedRequest;
+pub use embed::Embedder;
+pub use embed::ExecutableEmbedder;
+pub use embed::HashEmbedder;
+pub use embed::NoneEmbedder;
+pub use extract::candidate_status;
+pub use extract::extractor_for;
+pub use extract::stable_session_id;
+pub use extract::validate_candidates;
+pub use extract::Candidate;
+pub use extract::ExtractInput;
+pub use extract::Extractor;
+pub use extract::LocalExecutableExtractor;
+pub use extract::NoopExtractor;
+pub use extract::RemoteUsage;
+#[cfg(feature = "remote-provider")]
+pub use remote::RemoteExtractor;

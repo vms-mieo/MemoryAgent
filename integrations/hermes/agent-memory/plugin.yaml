@@ -1,0 +1,5 @@
+name: agent-memory
+version: 1.0.0
+description: "Agent Memory — local-first project memory over the agent-memory binary: recall, context briefings, and durable facts. No cloud, no extra pip packages."
+hooks:
+  - on_session_end

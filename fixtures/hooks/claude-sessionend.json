@@ -1,0 +1,7 @@
+{
+  "session_id": "abc123",
+  "transcript_path": "/Users/dev/.claude/projects/workspace/cloud-platform/transcript.jsonl",
+  "cwd": "/workspace/cloud-platform",
+  "hook_event_name": "SessionEnd",
+  "permission_mode": "default"
+}
